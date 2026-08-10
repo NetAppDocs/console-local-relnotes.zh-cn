@@ -1,0 +1,24 @@
+---
+indexpage:
+  title: NetApp Console 本地部署发行说明
+  summary: 了解 NetApp Console 本地部署中功能和数据服务的最新更改。有关完整的发布历史记录，请转到每个服务的完整发行说明。
+  keywords: release notes, enhancements, what's new, netapp console local deployment,
+    console local deployment, local, netapp data services
+  lead: 本发行说明介绍了 NetApp Console 本地部署的最新增强功能及其支持的数据服务。链接到每项服务的完整发行说明。
+  tiles:
+  - title: 新增功能
+    links:
+    - title: NetApp Console 本地部署的最新变化
+      url: whats-new.html
+  - title: 发行说明（按服务）
+    links:
+    - title: 发行说明索引
+      url: release-notes-index.html
+  - title: 博客和社区
+    links:
+    - title: NetApp Console 本地部署
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 社区
+      url: https://community.netapp.com/

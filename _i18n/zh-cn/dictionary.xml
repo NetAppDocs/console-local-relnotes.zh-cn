@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="doc">备份和恢复</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等信息的访问。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP、NETAPP 标识和 NetApp 商标页面上所列的商标是 NetApp, Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">当前 NetApp 拥有的专利列表可以在以下网址找到：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可的信息。</block>
+  <block id="1bc01e08b42828fc0cac94adc93e7ad2" category="summary">查看 NetApp Console 本地部署功能和 NetApp 数据服务的完整发行说明。</block>
+  <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">发行说明索引</block>
+  <block id="8cfa648663e709b25a2c1a44e30b049f" category="paragraph">查看 NetApp Console 本地部署功能和 NetApp 数据服务的完整发行说明。</block>
+  <block id="fae210aa9f9d8906ee39264d97001f11" category="section-title">NetApp Console 本地部署</block>
+  <block id="9d4198100508becebdc0d2a749b030a8" category="list-text"><block ref="9d4198100508becebdc0d2a749b030a8" category="inline-link-rx"></block></block>
+  <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">数据服务</block>
+  <block id="7a07c5a1c722a3ac42eb82b2ec878373" category="list-text"><block ref="7a07c5a1c722a3ac42eb82b2ec878373" category="inline-link-rx"></block></block>
+  <block id="b08c44cfeb2c12a2e9336ead8bda9d0b" category="summary">了解 NetApp Console 本地部署中功能和数据服务的最新更改。</block>
+  <block id="1154d38cf2282c69326af2cc648bda3f" category="doc">NetApp Console 本地部署的最新变化</block>
+  <block id="ab2c57a316edd449634464ee257c7d05" category="paragraph">了解 NetApp Console 本地部署中功能和数据服务的最新更改。</block>
+  <block id="e432f1482da7770cc741255ee1465c85" category="sidebar">本发行说明介绍了 NetApp Console 本地部署的最新增强功能及其支持的数据服务。链接到每项服务的完整发行说明。</block>
+  <block id="c8687cc8b0048d02ed49a88bc671ffa6" category="sidebar">NetApp Console 本地部署发行说明</block>
+  <block id="688c9e1d05415e95375fcbe885289e4c" category="sidebar">了解 NetApp Console 本地部署中功能和数据服务的最新更改。有关完整的发布历史记录，请转到每个服务的完整发行说明。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">发行说明（按服务）</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">近期更改</block>
+</blocks>
