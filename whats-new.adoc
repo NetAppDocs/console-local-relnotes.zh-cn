@@ -80,6 +80,8 @@ summary: 了解 NetApp Console 本地部署中功能和数据服务的最新更�
 
 https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["了解 NetApp Console 本地部署"]。
 
+https://docs.netapp.com/us-en/console-local/console-differences.html["了解 NetApp Console 本地部署与 NetApp Console SaaS 和私有模式之间的区别"]。
+
 
 
 [[backup-and-recovery]]
