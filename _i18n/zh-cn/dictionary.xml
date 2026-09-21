@@ -99,4 +99,8 @@
   <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">了解使用 NetApp Backup and Recovery 的 ONTAP 卷保护</block>
   <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026年9月16日</block>
+  <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包括 Trident Protect 26.09。</block>
+  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*集群和命名空间粒度的基于角色的访问控制*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册特定命名空间以进行访问控制。这可以在集群或命名空间级别实现更精细的访问控制。</block>
+  <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restore files and folders*：现在，您可以从基于 Kubernetes VM 的应用程序备份中还原或下载特定的文件和文件夹。</block>
+  <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026年9月21日</block>
 </blocks>
