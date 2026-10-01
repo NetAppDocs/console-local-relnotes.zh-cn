@@ -114,4 +114,8 @@
   <block id="1e2fd5e7979041c997816d29d5c1e2c0" category="inline-link">通过 NetApp Backup and Recovery 保护 VMware 工作负载</block>
   <block id="af77598cf52235180b19bf359e518fc2" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="d7977b9c562cb95be37532b996678207" category="inline-link-rx"></block>。</block>
   <block id="e133e28734ec4222b7f45792925cee97" category="section-title">2026年9月28日</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下预览增强功能：</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*取消卷还原作业*：您现在可以从作业监控页面取消正在进行的 ONTAP 卷还原作业，从而更轻松地管理长期运行或运行缓慢的作业。</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改进的卷索引状态报告*：ONTAP 卷仪表板现在通过为不符合索引条件的卷和快照副本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>状态，更准确地报告索引状态。该<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>状态现在专用于等待索引的卷，卷详细信息现在显示每个快照的索引状态，并附有悬停文本说明卷或快照副本不会被索引的原因。</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支持*：您现在可以保护托管在 2 节点和 4 节点 NetApp AFX 集群上的卷。</block>
 </blocks>
