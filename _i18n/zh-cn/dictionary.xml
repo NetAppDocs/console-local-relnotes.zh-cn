@@ -119,4 +119,5 @@
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改进的卷索引状态报告*：ONTAP 卷仪表板现在通过为不符合索引条件的卷和快照副本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>状态，更准确地报告索引状态。该<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>状态现在专用于等待索引的卷，卷详细信息现在显示每个快照的索引状态，并附有悬停文本说明卷或快照副本不会被索引的原因。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支持*：您现在可以保护托管在 2 节点和 4 节点 NetApp AFX 集群上的卷。</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 支持*：如果不想使用存储帐户访问密钥进行 Azure 身份验证，现在可以对 Azure 对象存储桶配置使用 Microsoft Entra ID 身份验证。运行 ONTAP 9.16.1 或更高版本的 Azure 系统中的 Cloud Volumes ONTAP 支持此选项。</block>
+  <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 工作负载增强</block>
 </blocks>
