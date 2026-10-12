@@ -50,14 +50,9 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
-  <block id="66591c0e71be05bd24e1869944b92db6" category="doc">增强对所有工作负载的多存储桶支持</block>
-  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery 现在支持使用跨不同云提供商的多达 100 个存储桶来保护系统中的工作负载。ONTAP 9.19.1 或更高版本需要支持每个系统超过 6 个存储桶。</block>
-  <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">了解 NetApp Backup and Recovery</block>
-  <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">要了解有关 NetApp Backup and Recovery 的详细信息，请参阅<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>。</block>
   <block id="2402a0b8d9aa0c3e1beaccf0071277cc" category="doc">介绍 NetApp Console 本地部署</block>
   <block id="258ea65dfbe28db96b93f873d22fbf91" category="inline-link">了解 NetApp Console 本地部署</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
-  <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
   <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">常规 NetApp Backup and Recovery 增强功能</block>
   <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*支持 NetApp Console 本地部署*：此版本的 NetApp Backup and Recovery 支持处于预览状态的 NetApp Console 本地部署。</block>
   <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 天的作业保留*：Backup and Recovery 现在会在 Job Monitor 中保留作业信息 90 天。</block>
@@ -120,4 +115,15 @@
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支持*：您现在可以保护托管在 2 节点和 4 节点 NetApp AFX 集群上的卷。</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 支持*：如果不想使用存储帐户访问密钥进行 Azure 身份验证，现在可以对 Azure 对象存储桶配置使用 Microsoft Entra ID 身份验证。运行 ONTAP 9.16.1 或更高版本的 Azure 系统中的 Cloud Volumes ONTAP 支持此选项。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 工作负载增强</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
+  <block id="b77bf9dc680cf2db1d8b3d5f6156585b" category="list-text">*NetApp MetroCluster 支持*：NetApp Backup and Recovery 现在使您能够保护由 NetApp MetroCluster 镜像的 Hyper-V 虚拟机。</block>
+  <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*针对 SAN VM 的跨区磁盘保护*：对于 CIFS 和 SAN 配置，您现在可以保护连接到保护组中每个 VM 的每个磁盘。这包括分布在多个 ONTAP 卷或 ONTAP 存储系统（跨区磁盘）上的文件，以及仅限于单个位置的文件。</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
+  <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*自动归档日志管理*：在数据库还原和克隆操作期间，NetApp Backup and Recovery 会自动发现并装载所需的归档日志，然后在操作完成后将其卸载。支持主、辅助和对象存储日志源。</block>
+  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Server 工作负载增强</block>
+  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">在此版本中，Microsoft SQL Server 工作负载引入了以下增强功能：</block>
+  <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*许可变更*：使用磁盘到磁盘或磁盘到磁盘扇出架构的备份不再收费。收费仅适用于备份到对象存储，包括使用 3-2-1 或磁盘到对象存储架构的备份。</block>
+  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Microsoft SQL Server 工作负载</block>
+  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">要了解有关保护 Microsoft SQL Server 工作负载的详细信息，请参阅<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
 </blocks>
