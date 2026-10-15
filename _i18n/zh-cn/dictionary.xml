@@ -126,4 +126,5 @@
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Microsoft SQL Server 工作负载</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">要了解有关保护 Microsoft SQL Server 工作负载的详细信息，请参阅<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*作业监视器自定义日期范围筛选*：您现在可以通过从作业监视器中的日历中选择自定义开始和结束日期来搜索过去 90 天的作业。</block>
 </blocks>
