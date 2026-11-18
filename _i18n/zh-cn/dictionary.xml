@@ -40,50 +40,17 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">近期更改</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
-  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保护 ONTAP 卷工作负载概述</block>
-  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
-  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作负载增强功能</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作负载增强功能</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
-  <block id="2402a0b8d9aa0c3e1beaccf0071277cc" category="doc">介绍 NetApp Console 本地部署</block>
-  <block id="258ea65dfbe28db96b93f873d22fbf91" category="inline-link">了解 NetApp Console 本地部署</block>
-  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
-  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">常规 NetApp Backup and Recovery 增强功能</block>
-  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*支持 NetApp Console 本地部署*：此版本的 NetApp Backup and Recovery 支持处于预览状态的 NetApp Console 本地部署。</block>
-  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 天的作业保留*：Backup and Recovery 现在会在 Job Monitor 中保留作业信息 90 天。</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
-  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*还原到备用位置支持（适用于 SAN VM）*：现在，您可以将基于 SAN 的 VM 备份还原到备用位置。</block>
-  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Multiple backup delete support*：您现在可以一次删除多个备份。</block>
-  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*预览对气隙资源的支持*：如果在 NetApp Console 本地部署中运行 NetApp Backup and Recovery，您可以发现、保护和还原气隙 Kubernetes 资源。此功能在此版本中处于预览状态。</block>
-  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
-  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*在不激活 Backup and Recovery 的情况下发现 ONTAP 系统和卷*：您现在可以在不激活 Backup and Recovery 的情况下发现系统和卷。</block>
-  <block id="d84803ce394c9284844fcf1a08967ee4" category="paragraph"><block ref="a11bdddbf642d1f60f3b9997ef8c00d9" category="inline-link-rx"></block>。</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
-  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*将对象存储备份还原到备用位置*：您现在可以将 Hyper-V 虚拟机、文件和文件夹从对象存储还原到备用存储位置。</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Hyper-V 工作负载</block>
   <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>。</block>
-  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*：此版本包括 Trident Protect 26.08。</block>
-  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*备份重试*：您现在可以启用备份重试，并将重试次数和重试间隔配置为 Kubernetes 保护策略中的高级设置。</block>
-  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*部分备份成功*：您现在可以在 Kubernetes 保护策略中配置高级设置，以便在个别资源出现故障时继续备份，从而允许备份作业以部分成功的状态完成。即使某些资源在备份操作期间失败，您也可以还原已备份的资源。</block>
-  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*崩溃一致性和虚拟机一致性备份*：Backup and Recovery for NetApp Console 服务现在支持配置保护策略，以创建崩溃一致性或虚拟机一致性备份或快照。您还可以自定义在保护操作期间执行虚拟机冻结的方式。</block>
-  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*Reconnect Kubernetes cluster upon Console agent IP change*：Backup and Recovery for NetApp Console 服务现在支持在代理的 IP 地址发生变化时，将集群重新连接到其 Console 代理。</block>
-  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*将集群迁移到新的 Console 代理*：Backup and Recovery for NetApp Console 服务现在支持在原始代理失败或被删除时将集群迁移到新的 Console 代理，从而确保应用保护不中断。</block>
   <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">了解如何通过 NetApp Backup and Recovery 保护 Kubernetes 工作负载</block>
   <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>。</block>
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Database 工作负载增强</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
-  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*Pluggable Database (PDB) restore*：您现在可以还原单个可插拔数据库 (PDB) 和 PDB 表空间，包括时间点恢复。</block>
-  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*Pluggable Database (PDB) clone*：您现在可以将单个 PDB 克隆到现有的目标容器数据库 (CDB) 中，并且可以选择在克隆完整的容器数据库时排除 PDB。</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Oracle 数据库工作负载</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
-  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
-  <block id="d2a0f46558d1ad15a1efcaa26aef1b39" category="inline-link">了解 NetApp Console 本地部署与 NetApp Console SaaS 和私有模式之间的区别</block>
-  <block id="fc43c258a671e0d243e8a95a48956300" category="paragraph"><block ref="a79ef635b40614d2cd5c555de517dd6f" category="inline-link-rx"></block>。</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">在此版本中，KVM、Hyper-V 和 VMware 工作负载引入了以下增强功能：</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*虚拟机跨磁盘保护*：对于 CIFS 配置，Backup and Recovery 现在支持保护组中连接到每个虚拟机的每个磁盘。这包括分布在多个 ONTAP 卷或 ONTAP 存储系统（跨磁盘）上的文件，以及仅限于单个位置的文件。</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAP Volumes 工作负载增强</block>
@@ -98,7 +65,6 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">常规 NetApp Backup and Recovery 增强功能</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*在虚拟机主机发现期间进行凭据选择* ：现在，当您发现 KVM、Hyper-V 或 VMware 主机时，您可以使用已添加到 Backup and Recovery 中的凭据。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 工作负载增强</block>
-  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*将还原作业优先于备份*：现在，在还原卷、文件或文件夹时，您可以将还原作业优先于备份作业。</block>
   <block id="419cd2b7ee4c4a768ccdb742a76a6d51" category="paragraph">*改进对暗站点的支持*：暗站点的 NetApp Backup and Recovery 现在提供与 NetApp Backup and Recovery 相同的 ONTAP Volumes 数据保护功能。此增强功能包括更新的备份、还原和作业管理服务以及新的元数据数据库。在升级期间，将自动保留和迁移现有数据库数据。升级后，请查看审核日志以验证迁移是否成功完成。暗站点的 NetApp Backup and Recovery 仅支持 ONTAP Volumes 工作负载。</block>
   <block id="fc56ab1b23274c05b12ad0c8dc80ef1c" category="list-text">*集群和命名空间粒度基于角色的访问控制（RBAC）*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册用于访问控制的特定命名空间。这可以在集群或命名空间级别实现更精细的访问控制。</block>
   <block id="f7afeeafbf15177ad50522c2abcfb502" category="paragraph">*控制台基于角色的访问控制 (RBAC) 支持*：Hyper-V、KVM 和 VMware 工作负载现在支持 NetApp Console 框架的 RBAC，使您能够管理对单个 Hyper-V、KVM 或 VMware 主机的访问。</block>
@@ -145,4 +111,10 @@
   <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">在此版本中，NetApp Backup and Recovery 为所有工作负载引入了以下许可增强功能：</block>
   <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">设置 NetApp Backup and Recovery 的许可</block>
   <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">要了解有关许可的详细信息，请参阅<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>。</block>
+  <block id="78ba94be34b62da6b3c55ab6428c64de" category="paragraph">在此版本中，NetApp Backup and Recovery 为 Hyper-V 工作负载引入了以下增强功能：</block>
+  <block id="5a17a39de31b7b5832a689a22a0960d3" category="paragraph">*NetApp MetroCluster 支持增强功能*：NetApp Backup and Recovery 现在支持在切换或回切操作前后的 NetApp MetroCluster 配置中保护 Hyper-V 主机。</block>
+  <block id="3df1770bd78ab7f279534a4bc01e8279" category="inline-link">发现并管理 Hyper-V 工作负载</block>
+  <block id="3cb8f9712223b09ad73c450e0af0ea64" category="paragraph">有关在 NetApp MetroCluster 配置中保护 Hyper-V 主机的详细信息，请参阅<block ref="665a91254fa4402bbc204875b0e6bd92" category="inline-link-rx"></block>。</block>
+  <block id="844ae54d758df29e7d829704e13ec279" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="ae9a446e0ed2e2ae49be41b424784f6c" category="inline-link-rx"></block>。</block>
+  <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
 </blocks>
